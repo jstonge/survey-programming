@@ -1,0 +1,9 @@
+We define "diverse misinformation" as misinformation spreading more easily when propagated on edges between people with same demographics. For instance, in Quebec politics, the idea that immigrants only go in Montreal and do not work might spread more easily (e.g. infection rate is higher) among white people in the suburbs than ethnic groups in the city.
+
+This is reminiscent of the notion of socio-semantic assortativity in that we have social clusters, based on demographics (shared social attributes), that will also be connected to similar semantic entities (e.g. immigrants only go to montreal and do not work). In our example, we assume that demographics are also correlated with semantic content.
+
+
+
+"Similarly, there is socio-semantic assortativity in the sense that
+connected nodes in the social network are also socsem-connected to similar se-
+mantic entitie" - Roth

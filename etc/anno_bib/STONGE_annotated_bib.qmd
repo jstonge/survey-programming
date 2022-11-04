@@ -1,0 +1,270 @@
+---
+title: "Annotated Bibliography Assignment"
+author: Jonathan St-Onge
+format: html
+editor: visual
+theme: litera
+toc: true
+toc-depth: 5
+csl: apa.csl
+bibliography: references.bib
+---
+
+## **Introduction**
+
+As science becomes increasingly collaborative and data-driven, scientists now need to know how to store, manage and move their data in a reproducible and transparent way. In many fields, communities of scholars propose new research programs based on computational methods to improve data-driven inquiries. In this project, we are interested in the perceived costs and benefits of students when learning to code. For instance, software development is typically perceived as a male (and geeky) activity. Does this mean that it is more difficult for women to assume the role of programmer? Does having peers participating in programming projects decrease the perceived cost of learning to program? We review the literature on the (i) rise of programming in non-Computer Science (non-CS) majors, including (ii) the underlying reasons why people advocate for programming in those fields, and (iii) what lessons have already been learned when teaching programming in non-CS majors. 
+
+## The rise of programming in non-CS fields 
+
+### Computational X
+
+::: callout-note
+## description
+
+In the last 20 years, we witnessed the datafication and digitalization of many fields that are not traditionally informed by computer science. History gave us four main disciplines representing this programming shift; digital humanities, cultural analytics (media computation), computational social science, and arguably computational linguistics (not including information systems).
+:::
+
+##### @hockey2004a
+
+> Seminal article describing how different groups of researchers came to use computing to answer questions in the humanities. Digital humanities include fields such as history, literature, journalism, philosophy, and other archival studies. Topic modeling is a key computational method used by digital humanists.
+
+##### @wing2006
+
+> Related to computational social science, computational thinking use code to simulate and visualize interactively to better understand and solve complex problems. As such, coding is not an end in itself but a cognitive gadget.
+
+##### @lazer2009a
+
+> Computational social science seems to be closer to the natural science in how they handle, in particular physics. Computational social sciences includes fields such as sociology, political theory, economy, and traditional sciences who got into studying social media. Computational social science tends to be closer to big data analysis, with observations being more easily reduced to quantitative data than in digital humanities or cultural analytics.
+
+##### @manovich2009
+
+##### @alvarado2012a
+
+##### @lazer2020a
+
+##### @edelmann2020a
+
+> Review of computational method in sociology. The authors are practitioners interested in the rise of computational methods in social science with a focus on sociology. They use the Web of Science database and citation network analysis to show the significant increase in computational methods in social science. They argue that computational sociology enables the study of previously unavailable questions, provides new ways of creating theory itself, and facilitates the theorizing of digital behaviors. Although they claim that the calculation methods are on the rise, they do not provide solid evidence for this. They make their claims simply based on descriptive statistics from observational data.
+
+### Teaching programming to non-CS major
+
+::: callout-note
+## description
+
+Numerous articles report on teaching programming to non-Computer Science majors. Early papers are written by folks in computer science who observed that non-CS majors disliked and tended to fail traditional introductory programming courses such as CS1. As departments and teachers started to offer classes on particular topics that required programming skills, we started to see papers on individual experiences of teaching programming to students who might or might not care about programming. Overall we can say that teaching programming for programming's sake does not work outside computer science. Non-CS majors need to first see the potential benefits of learning to code before enjoying it. A recurrent theme is how novices require mentorships and peers to succeed in carrying out projects that require programming. The precise arrangement of which expertise level each actor needs when doing a project to maximize the effect of learning programming is yet to be determined.
+:::
+
+##### @forte2003
+
+> Already in 2003, Forte notes that computer science introductory classes fail to reach a diverse audience and that this an issue because underserved groups will lack digital literacy in a world dominated by digital technology. Instead of focusing on calculation, her pilot study aims to teach programming by focusing on media computation. She finds that the class is well-received, especially for women who change their attitudes on the "computer science stereotype". Although this is a small study that is not experimental by design, this study is an early example of how CS traditionnal introductory class was taught might have facilitated the promotion of certain computer science sterotype.
+
+##### @forte2003_motivation
+
+> In a follow up study from Forte (2003), Forte surveyed and interviewed 3 classes (CS1, CS1 for engineers, and Media computation) keeping tracks of the demographics of the respondents. She tested whether the same reasons women do not choose to participate in computer apply to other underserved groups. They find that the framing of the class and preconception about programming greatly impact motivation and engagement in the class, with media computation students being more positively inclined toward programming. The authors recognize that the culture of the course might be a confounding in that respect. Moreover, the 3 classes did not standardized their test so that it is impossible to compare students' programming achievement.
+
+::: callout-caution
+## note
+
+-   The focus of the media computation class on the internet (the class was in 2003) led the student taking advantage of the creative aspect of the course using programming outside the class.
+:::
+
+##### @guzdial2005
+
+Guazdial and Forte (2005) aim to provide a design of non-majors introductory computing course and benchmark evalution results.
+
+::: callout-caution
+## note
+
+-   Already in 2003, there was a growing of non-CS majors for computer science because computing influences society and provide competitive advantage for students.
+:::
+
+##### @connolly2009
+
+> Bad first experience when learning programming can lead to anxiety and lack of confidence. Connolly et al. (2009) describe a longitudinal study investigating variance of anxiety amongst undergraduate CS students in Ireland.
+
+##### @stroulia2011
+
+> Stroulia et al. (2011) aim to investigate how to make undergraduate students effective in their distributed software engineering collaboration, a familiar type of collaboration for scientists. They designed the Undergraduate Capstone Open-Source Project (UCOSP), a project where students learn to code through learning and projects but in a distributed fashion. Their courses brought together 184 students from 25 universities and ran from 2008 to 2011. They find that bringing students face-to-face for a code sprint at the right time and with the right skill level greatly facilitates the distributed work over the long term. They also find that effective time management is one of the main issues in this type of collaboration. We note that the study is not experimental in that they have no control groups and no statistical tests. The authors offer their reflections on what has worked for distributed collaboration in projects requiring software engineering. This article is relevant to our study in that learning to collaborate effectively can be a benefit of learning to code in all sciences.
+
+##### @marsh2013
+
+> Marsh (2013) reports a snapshot of her 10-year project that seeks to instill programming interests in graduate students in museology. Seeking to confront her student with the challenges of representing physical objects in a virtual environment, a new reality of museum curators, Marsh tasks her students to create a digital exhibit using the open source software Omeka. With this assignment, she finds that most students recognized the subtlety of working in the digital format, but also that the limitations of the Omeka platform have led more curious students to engage in improving Omeka. While Marsh's project may be unrepresentative of other disciplines, her experience contributes to the growing number of educators exploring the challenges of teaching digital skills to digital natives, who may have little interest in the digital world as part of their professional training.
+
+##### @osullivan2015
+
+> O'Sullivan et al. (2015) took advantage of the Digital Humanities Summer Institute to survey participants (n=96) on their use of programming and the role of software development in the humanities. Their results suggest that there is a slight generational gap between senior researchers (50+) and their younger counterparts (25-35), with the younger generation not considering themselves "technically proficient" and preferring to collaborate rather than coding everything on their own (unlike older researchers). As the authors acknowledge, we must be careful in interpreting their results because the survey is too small and potentially unrepresentative of the larger population. Nonetheless, as with Marsh's project (2013), their findings contribute to the growing sense in the digital humanities that humanists and technical experts need to find ways, or middle ground, to collaborate effectively to complete computational projects.
+
+##### @kafura2015
+
+> Kafura et al. (2015) shared their experience of building a new introductory course in computational thinking for non-computer science majors. After giving the class in Fall 2014, they perform a survey with the students (n=20; 70% male and 30% female) about their pedagogy. One tool they put to test is Blockly, a block-based programming language that let students organize code as modular blocks, which can be translated into a popular textual programming language like Python thereafter.  Follow-up interviews revealed that working in a cohort was beneficial for students, providing peers to go see when stuck on a programming problem. That said, their results should be taken with a grain of salt as their sample is small and students chose to enroll in a computational thinking course (purposive sampling).
+
+##### @chilana2016
+
+> Study about motivations of CS vs non-CS majors when taking introductory class in programming.
+
+##### @locke2016
+
+##### @jacobs2016
+
+> Teaching programming to UCL geoscience students using a blended learning approach, based on the Software carpentry methods. The study focuses on how different cohorts react to different teaching styles. They do note that motivating programming with geoscience projects was key, as was the game-style approach to do so (MOOC-style did not).  Jacobs et al. (2016) provide guidelines on how to teach effectively programming to non-CS majors. They do not speak of demographics or other factors that might come into play, but they mention tool attributes to ease the learning (Ipython \> Python \> C).
+
+##### @kennedy2017
+
+> Given the growing number of women in the humanities, Kennedy (2017) argues that fostering digital skills is a feminist imperative and ethical duty. To incorporate computational methods in classrooms, she proposes that teachers should focus on developing hybrid digital-humanities methods, such as exercising students' ability to judge the relevance of online content, exploiting multimodal and interactive documents, or practicing moving between the macro and micro reading perspectives. Kennedy offers an original perspective on how the teaching of digital literacy skills should be motivated from a variety of perspectives, including that of feminist imperatives and diversity ideals. But the article contains many normative statements about the practices we should adopt without necessarily taking into account all the practical challenges involved.
+
+##### @edelstein2017
+
+> Edelstein et al. (2017) provide a review of how digital methods open up new methodological avenues for historical inquiries. This article is less of a manifesto for digital humanities than showing how to handle the exponential growth of new information (big data) in the authors' 10 years project of mapping the Republic of Letters. Edelstein et al. (2017) put forth the challenge of designing a workflow that "support humanistic inquiry into multidimensional, heterogeneous, and incomplete datasets" (419). They conclude that new digital sources in history call for new tools that can accommodate ambiguities, paradoxes, and contingencies that are specific to digital history.  Ultimately, the paper is high-level and does not address the challenge of interdisciplinary collaboration (historians, grant officers, data scientists, programmers, and interface designers). The benefits they identify are based on their own experience and not their object of study.
+
+##### @dawson2018
+
+> This study performs a quasi-experiment design in which non-CS major students took the primary introductory computer science (CS1) course one year while the next year they took the same class but designed for other disciplines (CS0.5). The key difference between the two conditions is that the workload in CS0.5 was geared towards solving problems from a discipline of their choice, while students in CS1 pursued more advanced topics in computer science.  Follow-up surveys demonstrate that students in CS0.5 performed better and were more satisfied than their peers from the previous year who took CS1. As in Kafura et al. (2015), the survey reveals that a recurrent theme that explained higher satisfaction for CS0.5 students was the ability to work on relevant problems using code with peers of their choice. One downside of the experimental design is that there might have been biased introduced by using two cohorts from two different years.
+
+##### @medeiros2019
+
+##### @sharma2018
+
+##### @auker2020
+
+##### @alnervik2020
+
+> Thesis on the success factors of teaching programming to non-CS majors. Motivation (including "encouragement from others" and "keenness and general academic motivation")  seems to be more important than previous math or programming experience.
+
+##### @forrester2022
+
+> Forrester et al. (2022) generalize the anxiety studied in computer science and mathematics and apply it to learning to code in the R programming language. Using a survey completed repeatedly over the course of a semester, they provide evidence that undergraduate women in ecology feel uneasiness and apprehension about learning the R programming language. This paper offers an interesting case study of the challenges to teaching programming, informed by the literature on anxiety in academia, but ultimately they rely on a small sample size and fail to carry on more sophisticated statistical analysis as a result. Still, this is a good starting point for understanding the relative costs and benefits of teaching programming to a cohort with no prior coding experience.
+
+### The impact of social networks on learning
+
+##### @stadtfeld2019
+
+> Stadtfeld and colleagues (2019) produce a survey driven by ideas from network theory to demonstrate the impact of social integration of new engineering students on GPA. Although this is limited to a single context and success metric, this article provides some evidence that friendship networks, not just study buddy relationships, are important in quantifying failure and academic success. This paper goes beyond other papers discussing the relative importance of community in that it investigates how types of networks are key to understanding academic success. That said, the paper has limitations in that GPA may or may not be causally related to the social drivers of research productivity and relevance.
+
+##### @galesic2021
+
+> Galesic et al. (2021) show that asking individuals about their expectations for voting behavior or the vaccination status of their social contacts could provide more accurate estimates of these behaviors than asking about them. They argue that people can act as social sensors in that they are acutely aware of some behaviors of their peers, contrary to the view that we are merely biased individuals. Social sensing is relevant to this study in that we aim to determine the social drivers that facilitate learning to program, which might be well predicted by the opinions individuals have of their social contacts. The authors frame their study as part of the field of computational social science, but one might wonder how different it really is from one of the more traditional social sciences such as sociology.
+
+##### @werner2004
+
+### Programming x domain expertise
+
+##### @heuser2011
+
+> Heuser and Le-Kac (2011) show how a digital analysis of 19th-century British novels informed by humanistic values can address the methodological concerns of traditionalists in the humanities. Based on an inverse relationship between two semantic fields, they show how a quantitive signal can be enriched by concepts from the humanities (such as the 'death of values in the Victorian period') to recover units familiar to literary scholars (novels, genres, and authors in a corpus). The authors exemplify how digital and traditional tools mutually inform each other to achieve an analysis of a large corpus that remains true to the values ​​of the humanities. The authors do not address the potential asymmetry that traditional scholars face when digital humanists make many of the decisions that typically arise while cleaning the raw data, which influences the output that traditional scholars must analyze.
+
+## Learning to code goes beyond the classrooms
+
+### Participating in digital spaces
+
+See [@locke2016]
+
+### Feminism
+
+##### @dignazio2020
+
+Also motivation from [@kennedy2017; @forte2003].
+
+### Epistemic inequality: Is science really meritocratic?
+
+::: callout-note
+## description
+
+Coming from the sociology of science and the science of science, this emerging field is interested in combining qualitative data with bibliometric studies to make claims about the unequal spread of ideas in science. We can trace back their ideas and motivation from the literature on the "cumulative advantage" in science, the "gender gap", or "invisible colleges". The field distinguished itself by its methods, which combine qualitative (surveys) and quantitative (bibliometric) data. 
+:::
+
+##### @piper2017
+
+> Taking as a starting point how the English government did the exercise of measuring and comparing institutions in 2007 to assess the quality of research, Piper (2017) discuss how quantifiable research outputs such as publication are used as metrics for providing public funding. This is bad, as raw publication counts do not take into account impact or quality of research. Moreover, this might overly benefit scientists at elite institutions who produce the majority of research articles, to the detriment of smaller universities who have different objectives. For Clausets' research group (Way et al. 2019, Morgan et al. 2018, Wapman et al. 2022), this is the basis for a broader discussion on epistemic inequality.
+
+::: callout-caution
+## note
+
+-   'The "free exchange of ideas" requires media----things, concepts, technologies, practices, institutions----that intervene and get in between' (p.19).
+:::
+
+##### @morgan2018
+
+##### @way2019
+
+> Way and colleagues previously investigated how institutional prestige, or the institution's ability to place their doctoral students in faculty positions, was instrumental in understanding the unequal spread of scientific ideas. In this follow-up study, Way et al. (2019) demonstrate that a working environment that promotes larger research groups and available labor is more important than prestige to measure scholarly outputs. Using an experiment where researchers are matched based on gender, subfields, and other features, but they in with respect to their working environment, they can show that the more prestigious work environments lead to more citations even if they come from similar training environments (the contrary is not true). A limitation of this study is that their measures of scholarly outputs are limited to the number of publications and citations, which might or might not best represent the productivity and prominence of researchers.
+
+##### @morgan2021
+
+> Morgan et al. (2021) show that parenthood in academia is a key non-meritocratic factor that influences the varying productivity of researchers, especially with respect to gender (the so-called productivity gap). Using a similar matching experiment to Way et al. (2018), but this time with parenthood being the decisive factor, they show that mothers in computer science produced on average 13.1 fewer papers compared to fathers over the same early-career time period. Their methods demonstrate how a simple survey with basic questions (e.g. who is using parental leaves and whether parent leave policies were important in choosing a current position) can provide important insights to better understand social factors driving the evolution of science. As with many natural experiments in computational social science, this study is observational and is vulnerable to confounding variables and other biases from the sampling procedure.
+
+##### @wapman2022
+
+## It's a trap.
+
+### Social barriers to learning to code
+
+##### @jackson2008
+
+> Using a sample of 602 children from southern Michigan's Lower Peninsula, Jackson et al. (2008) investigate the impact of gender and race on using information technologies (IT; e.g. computer, Internet, video games and mobile phone use) and their impact on school performance. Unsurprisingly, they find evidence of a digital divide, in which Caucasian American children use/have more computer access than African American children, boys play more video games than girls, and girls use computers more for communication than boys. Knowing which population is exposed to IT early, combined with other related socio-economic biases, is key to understanding the unequal costs of using digital tools later on, especially in relation to self-identifying as programmers. A limitation of this study is the small sample size and lack of more appropriate statistical modeling (such as a mixed model), which would have allowed the authors to control for the many confounding variables that may underlie the digital divide.
+
+##### @balali2018
+
+> Balali et al. (2018) identify barriers for mentors in open source programming projects based on semi-supervised interviews, with a particular focus on gender-specific challenges. Among the 35 barriers identified, they find evidence of 11 personal barriers (e.g. switching context between mentees), 12 interpersonal barriers (e.g. creating an inclusive community, harsh project atmosphere), 8 process barriers, and 6 technical barriers (e.g. identifying the right level of complexity for newcomers). Overall, this paper appears readily applicable to academia, as new students in traditionally non-digital fields will likely encounter the same barriers to entertaining successful mentor-mentee relationships. While some aspects of this work might be applicable to academia, other dimensions such as the decentralized collaboration scheme typical in open source projects might not.
+
+##### @trinkenreich
+
+> Trinkerenreich et al. (2022) provide an exhaustive literature review from the last 20 years on why women who identified as such tend to leak out or avoid participating to open source software (OSS) communities.  One key takeaway is that men tend to participate in OSS because they find it intrinsically rewarding (e.g. the joy of the craft, but also a community who think alike), whereas women are motivated to join OSS project to accomplish their goals. Trinkenreich et al. (2022) also review a number of strategies to mitigate the male-dominated culture of programming, most notably by promoting awareness of women lead, de-stereotyping language about programming, and fostering rich social environments with gender parity. The authors also make explicit the connection between the situation of women in OSS women with their participation in STEM, including the lack of parental leaves policies and difficulties to achieve work-life balance.
+
+##### @anderson2016
+
+::: callout-caution
+## notes
+
+-   Most faculty researchers consider their work on these projects to be highly collaborative (FS 5), while most students consider their work to be only minimally or moderately collaborative (SS 18).
+
+-   While nearly half of faculty members' projects had an anticipated duration of six years or more (FS 6), a similar number of student researchers anticipated working on their projects for two years or less (SS 7).
+:::
+
+##### @posner2012
+
+> A blog post about what learning to code entails for women. The cost of learning to code while knowing that programming has been constructed as a male
+
+##### @nolan2016
+
+##### @widner2012
+
+##### @skud2011
+
+### Mind the gap between scientific practices and curricula
+
+##### @touchon2016
+
+::: callout-caution
+## notes
+
+-   There are more and more published papers with R but learning R is absent from ⅔ of curricula in ecology.  
+:::
+
+### Is programming in the humanities facilitate neoliberalism?
+
+##### @allington2016
+
+> This essay epitomizes the risks of focusing too much on programming to the detriment of domain expertise. Alling et al. (2016) argue that learning to code in the humanities is first and foremost a neoliberal scam, that is, a way to make universities profitable for corporations by drawing from external funding sources and provide students with marketable skills.
+
+##### @huikyongchun2016
+
+##### @greenspan2019
+
+see also [@locke2016] for a response.
+
+## Amateur software development: No, you're not done when your code just works
+
+> Programming is on the rise in non-CS fields. To preserve diversity and minimize epistemic inequality, we want marginalized groups (e.g. women+) in CS to be on board. If not, the disciplines, research groups, and individuals who embrace programming are likely to appropriate themselves more projects requiring the use of the practices of programming. If these projects are more easily funded, this will increase epistemic inequality. But here is the annoying bit. We don't want people to code well, new projects involving programming should follow best practices.  At the moment, there are reasons why we want that at the community level, but it is unclear how individuals benefit from investing time in amateur software development.
+
+### Reproducibility, reproducibility, reproducibility
+
+##### @trisovic2022
+
+> Trisović et al. (2022) compare shared research code in the R programming language (n=9078) and datasets (n=40,000) on the Harvard Dataverse repository with established best practices. They were interested in coding errors that lead to the impossibility of easily re-executing the code. They find that 74% of R files fail to re-execute out of the box, while 56% still fail after authors apply basic code cleaning. <mark>One of the main takeaways is that failing to produce quality code, from a software engineering perspective, leads to less reproducibility and wasted time.</mark> On the flip side, following best programming practices saves time and ensures research reproducibility for oneself and others. This study assumes that quality code should save researchers' time, but does not quantify this claim. That is, is the time invested in learning good coding practices worth the investment from a professional perspective, especially when scientists must already learn numerous other skills? 
+
+##### @culina2020
+
+##### @stodden2018
+
+> Minocher, R., Atmaca, S., Bavero, C., McElreath, R., & Beheim, B. (2021). Estimating the reproducibility of social learning research published between 1955 and 2018. Royal Society Open Science, 8(9), 210450.[https://doi.org/10.1098/rsos.210450\
+> ](https://doi.org/10.1098/rsos.210450)
