@@ -65,7 +65,7 @@ question2labs_lookup <- list(
     "If you have any suggestions/comments about the survey, please share them below!" = "comments",
     "Score" = "score",
     "What is your institutional email address?" = "email",
-    "What is the name of your research group?" = "name_research_group",
+    "What is the name of ydour research group?" = "name_research_group",
     "Do you code for any of the following reasons?" = "reason_coding",
     "How did you first learn to code?" = "how_did_you_learn_code",
     "Which of the following describes industry positions you have held or currently hold?" = "position_industry",
@@ -81,4 +81,143 @@ question2labs_lookup <- list(
     "Do you consider yourself a member of an underrepresented group?" = "underrep_group",
     "Which categories best describe you?" = "ethnicity",
     "How many advisors do you have?" = "nb_advisors"
+)
+
+dep_lookup = c(
+    `Community Development and Applied Economics M.S.`="CDAE (M.S)",
+    `Public Administration M.P.A.`="Public Administration M.P.A.",
+    `Complex Systems and Data Science Certificate of Graduate Study, M.S., Ph.D.`="CSDS (M.S., Ph.D.)",
+    `Food Systems M.S., Ph.D.`="Food Systems (M.S., Ph.D.)",
+    `Computer Science M.S., Ph.D.`="Computer Science (M.S., Ph.D.)",
+    `European Studies B.A.`="European Studies (B.A.)",
+    `Data Science B.S` = "Data Science (B.S)",
+    `Biology M.S., M.S.T., Ph.D.` = "Biology (M.s, Ph.D.)",
+    `Mechanical Engineering B.S.`= "Mechanical Engineering (B.S.)",
+    `Sustainable Development Policy, Economics and Governance Ph.D.`="Sust. Dev Policy (Ph.D.)",
+    `Mathematical Sciences M.S., Ph.D.`="Mathematics (M.S., Ph.D.)",
+    `Community Resilience and Planning Certificate of Graduate Study` = "CRP (Grad Certificate)",
+    `Biomedical Engineering Ph.D.` = "Biomedical Engineering (Ph.D.)"
+)
+
+dep_binary_lookup = c(
+    `Community Development and Applied Economics M.S.`="Non-STEM",
+    `Public Administration M.P.A.`="Non-STEM",
+    `Complex Systems and Data Science Certificate of Graduate Study, M.S., Ph.D.`="STEM",
+    `Food Systems M.S., Ph.D.`="Non-STEM",
+    `Computer Science M.S., Ph.D.`="STEM",
+    `Biology M.S., M.S.T., Ph.D.` = "STEM",
+    `European Studies B.A.`="Non-STEM",
+    `Data Science B.S` = "STEM",
+    `Mechanical Engineering B.S.`= "STEM",
+    `Sustainable Development Policy, Economics and Governance Ph.D.`="STEM",
+    `Mathematical Sciences M.S., Ph.D.`="STEM",
+    `Community Resilience and Planning Certificate of Graduate Study` = "Non-STEM",
+    `Biomedical Engineering Ph.D.` = "STEM"
+)
+
+ethnicity_binary_lookup = list(
+"White or of European descent"='white',
+"Prefer not to say"="Prefer not to say",
+"Southeast Asian,White or of European descent"='non-white',
+"Multiracial,Southeast Asian,White or of European descent"='non-white',
+"Middle Eastern"='non-white',
+"South Asian"='non-white',
+"Black or of African descent"='non-white',
+"Hispanic, Latino/a/x of Spanish Origin"='non-white',
+"Southeast Asian"='non-white',
+"Hispanic or Latino/a/x,Indigenous (such as Native American, Pacific Islander, or Indigenous Australian)"='non-white'
+)
+
+lookup_ord_1 = list(
+    'Extremely likely'=5,
+    'Somewhat likely'=4,
+    'Neither likely nor unlikely'=3,
+    'Somewhat unlikely'=2,
+    'Extremely unlikely'=1
+)
+
+lookup_ord_2 = list(
+    'Extremely important'=5,
+    'Very important'=4,
+    'Moderately important'=3,
+    'Slightly important'=2,
+    'Not at all important'=1,
+    'I do not have a research group'=998
+)
+
+# WE ASSUME THAT IF YOU DON'T KNOW WHAT IT IS 
+# YOU DON'T VALUE IT, EVE THOUGH IF YOU KNEW WHAT 
+# IT WAS YOU MIGHT VALUE IT.
+lookup_ord_3 = list(
+    "I don't know" = 0
+    'I do not know what it is' = 0,
+    'Somewhat important not to have'=2,
+    'Not important'=3,
+    'Somewhat important to have'=4,
+    'Very important not to have'=1,
+    'Very important to have'=5,
+)
+
+lookup_ord_4 = list(
+    `Younger than 5 years` = "9",
+    `5 - 10 years` = "8",
+    `11 - 17 years` = "7",
+    `18 - 24 years` = "6",
+    `25 - 34 years` = "5",
+    `35 - 44 years` = "4",
+    `45 - 54 years` = "3",
+    `55 - 64 years` = "2",
+    `Older than 64 years` = "1"
+)
+
+lookup_ord_5 = c(
+    `Less than 1 year` = "1",
+    `1 to 2 years` = "2",
+    `2 to 4 years` = "3",
+    `5 to 9 years` = "4",
+    `10 to 14 years` = "5",
+    `15 to 19 years` = "6",
+    `More than 20 years` = "7",
+    `Prefer not to say` = "999"
+)
+
+lookup_ord_6 = list(
+    "On every project",
+    "Most projects",
+    "Few projects",
+    "Prefer not to say"
+)
+
+lookup_ord_7 = list(
+    "Always",
+    "Most of the software",
+    "Some of the software",
+    "Almost none of the software",
+    "None of the software"
+)
+
+lookup_ord_8 = list(
+    "0 hour",
+    "1-5 hours",
+    "6-10 hours",
+    "11-15 hours",
+    "16-20 hours",
+    "21-25 hours",
+    "> 26 hours"
+)
+
+lookup_ord_9 = list(
+    "Far too little" = "1",
+    "Slightly too little" = "2",
+    "Neither too much or too little" = "3",
+    "Slightly too much" = "4",
+    "Far too much" = "5"
+)
+
+lookup_ord_10 = list(
+    "Not valued at all compared to my research ability" = "1",
+    "Less valued than my research capacity" = "2",
+    "As valued as my research ability" = "3",
+    "More valued than my research ability" = "4",
+    "Prefer not to say" = "999"
 )
