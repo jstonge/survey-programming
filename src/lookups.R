@@ -65,7 +65,7 @@ question2labs_lookup <- list(
     "If you have any suggestions/comments about the survey, please share them below!" = "comments",
     "Score" = "score",
     "What is your institutional email address?" = "email",
-    "What is the name of ydour research group?" = "name_research_group",
+    "What is the name of your research group?" = "name_research_group",
     "Do you code for any of the following reasons?" = "reason_coding",
     "How did you first learn to code?" = "how_did_you_learn_code",
     "Which of the following describes industry positions you have held or currently hold?" = "position_industry",
@@ -97,6 +97,7 @@ dep_lookup = c(
     `Mathematical Sciences M.S., Ph.D.`="Mathematics (M.S., Ph.D.)",
     `Community Resilience and Planning Certificate of Graduate Study` = "CRP (Grad Certificate)",
     `Biomedical Engineering Ph.D.` = "Biomedical Engineering (Ph.D.)"
+    # `Field Naturalist (Plant Biology) M.S.` = "Plant Biology (M.S.)"
 )
 
 dep_binary_lookup = c(
@@ -112,7 +113,8 @@ dep_binary_lookup = c(
     `Sustainable Development Policy, Economics and Governance Ph.D.`="STEM",
     `Mathematical Sciences M.S., Ph.D.`="STEM",
     `Community Resilience and Planning Certificate of Graduate Study` = "Non-STEM",
-    `Biomedical Engineering Ph.D.` = "STEM"
+    `Biomedical Engineering Ph.D.` = "STEM",
+    `Field Naturalist (Plant Biology) M.S.` = "STEM"
 )
 
 ethnicity_binary_lookup = list(
@@ -149,13 +151,13 @@ lookup_ord_2 = list(
 # YOU DON'T VALUE IT, EVE THOUGH IF YOU KNEW WHAT 
 # IT WAS YOU MIGHT VALUE IT.
 lookup_ord_3 = list(
-    "I don't know" = 0
+    "I don't know" = 0,
     'I do not know what it is' = 0,
     'Somewhat important not to have'=2,
     'Not important'=3,
     'Somewhat important to have'=4,
     'Very important not to have'=1,
-    'Very important to have'=5,
+    'Very important to have'=5
 )
 
 lookup_ord_4 = list(
@@ -220,4 +222,14 @@ lookup_ord_10 = list(
     "As valued as my research ability" = "3",
     "More valued than my research ability" = "4",
     "Prefer not to say" = "999"
+)
+
+lookup_ord_11 = list(
+    "Cite directly git repository as a link" = "cite",
+    "Open Science Framework (OSF)" = "cite",
+    "Cite using bibtex, APA, MLA etc." = "cite",
+    "I cite their academic paper" = "cite",
+    "I don't cite people's data" = "no cite",
+    "I have not cited people's data" = "no cite",
+    "Prefer not to say." = 999
 )
