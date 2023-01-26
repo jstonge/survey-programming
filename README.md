@@ -1,6 +1,6 @@
 # survey-programming
 
-The survey lives [here](https://qualtrics.uvm.edu/survey-builder/SV_29K2Bj7QejHFNoq/edit) (you need permission to access it). See [Project stats](https://github.com/users/jstonge/projects/11/views/2).
+The survey lives [here](https://qualtrics.uvm.edu/survey-builder/SV_29K2Bj7QejHFNoq/edit) (you need permission to access it). See [Project status](https://github.com/users/jstonge/projects/11/views/2).
 
 ## Steps that we could somehow automatized
 
