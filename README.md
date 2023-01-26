@@ -1,5 +1,7 @@
 # survey-programming
 
+The survey lives [here](https://qualtrics.uvm.edu/survey-builder/SV_29K2Bj7QejHFNoq/edit) (you need permission to access it)
+
 ## Steps that we could somehow automatized
 
  - Assuming columns that finish by `Other: - Text` or `Fill in the blank: - Text` always come in pair with columns finishing with `- Selected Choice`, we can update the `Selected` column with the `Other` column.
